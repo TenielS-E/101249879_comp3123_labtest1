@@ -1,0 +1,12 @@
+{
+  "name": "101249879_comp3123_labtest1",
+  "version": "1.0.0",
+  "description": "Lab Test 1",
+  "main": "question3/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "js"],
+  "author": "Teniel",
+  "license": "ISC"
+}
