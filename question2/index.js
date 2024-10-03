@@ -25,25 +25,17 @@ const resolvedPromise = async() =>{
     
 }
 
-function rejectedPromise(){
-    return new Promise(
-        async() =>{
-            setTimeout(() => {
-                return Promise.reject('error: Rejected Promise!');          
-            }, 500)
-            
-            try{
-                clearTimeout();
-                resolve();
-            }
-            catch (e){
-                clearTimeout();
-                console.error(e);
-            }
+const rejectedPromise = async() =>{
+    setTimeout(() => {
+        try {
+            return Promise.reject('error: Rejected Promise!');
         }
-        
-    )
-}
+        catch (e) {
+            console.error(e);
+        }
+
+    }, 500)
+};
  
 
 // Callback Promises:
