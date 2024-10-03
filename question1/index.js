@@ -20,7 +20,7 @@ function lowerCaseWords(arr){
     }
 }
 
-// Test Array:
+// Test Array: (From labtest pdf)
 const mixedArray = ['PIZZA', 10, true, 25, false, 'Wings'];
 
 // Callback Function with parameter
